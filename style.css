@@ -1,77 +1,109 @@
 /*
-	Red #ff5050
-	Gray #666666
-	Text #333333
+  Red #ff5050
+  Gray #666666
+  Text #333333
 */
 
 body {
-	font-family: 'Lato', sans-serif;
-	margin: 0;
-	padding: 0;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
 header {
-	height: 530px;
+  height: 530px;
 }
 
 span.warning {
-	color: #ff5050;
+  color: #ff5050;
 }
 
 header footer {
-	height: 150px;
-	background-color: #ff5050;
-	position: absolute;
-	top: 380px;
-	min-width: 100%;
-	z-index: 10;
+  height: 150px;
+  background-color: #ff5050;
+  position: absolute;
+  top: 380px;
+  min-width: 100%;
+  z-index: 10;
 }
 
 header footer h2 {
-	width: 100%;
-	text-align: center;
-	color: #333;
-	font-size: 25pt;
-	font-weight: 700;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 25pt;
+  font-weight: 600;
 }
 
 header footer h2 span.white {
-	color: #fff;
+  color: #fff;
 }
 
 .uppercase {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 header h1 {
-	font-weight: 900;
-	margin-top: 100px;
-	position: relative;
-	z-index: 10;
-	width: 100%;
-	text-align: center;
-	text-transform: uppercase;
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-	font-size: 48pt;
+  font-weight: 900;
+  margin-top: 100px;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 48pt;
 }
 
 #bg-img {
-	z-index: 0;
-	position: absolute;
+  z-index: 0;
+  position: absolute;
   top: 0;
   left: 0;
 
-  /* Preserve aspet ratio */
+  /* Preserve aspect ratio */
   min-width: 100%;
   height: 380px;
 }
 
 section {
-	width: 100%;
-	text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
-section.reason h1 {
+section.reason {
+  border-bottom: solid 2px #ff5050;
+}
 
+section.reason p.reason {
+  color: #ff5050;
+  font-size: 24pt;
+}
+
+section.reason h3 {
+  text-transform: uppercase;
+  font-size: 30pt;
+}
+
+p.description {
+  font-size: 18pt;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.interstitial {
+  padding-top: 60px;
+  height: 100px;
+  background-color: #ff5050;
+  color: #fff;
+  font-size: 25pt;
+  font-weight: 400;
+}
+
+section.govt-advice {
+  background-color: #666;
+  color: #fff;
 }
