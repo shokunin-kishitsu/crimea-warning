@@ -111,6 +111,12 @@ section.interstitial {
   font-weight: 400;
 }
 
+section.quotes h3 {
+  color: #ff5050;
+  font-size: 24pt;
+  font-weight: 400;
+}
+
 section.govt-advice {
   background-color: #666;
   color: #fff;
