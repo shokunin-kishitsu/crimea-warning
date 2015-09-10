@@ -87,6 +87,14 @@ section.reason h3 {
   font-size: 30pt;
 }
 
+section.reason a {
+  color: #ff5050;
+}
+
+section.reason a:hover {
+  text-decoration: none;
+}
+
 p.description {
   font-size: 18pt;
   width: 70%;
