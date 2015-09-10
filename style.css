@@ -67,6 +67,11 @@ header h1 {
   height: 380px;
 }
 
+section {
+	width: 100%;
+	text-align: center;
+}
+
 section.reason h1 {
 
 }
