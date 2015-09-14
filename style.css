@@ -6,13 +6,14 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 14pt;
   margin: 0;
   padding: 0;
   color: #333;
 }
 
 header {
-  height: 530px;
+  height: 460px;
 }
 
 span.warning {
@@ -74,15 +75,50 @@ section {
 }
 
 section.reason {
+  color: #333;
   border-bottom: solid 2px #ff5050;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+p {
+  color: #333;
+}
+
+section.reason ul {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+hr.short-grey {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 25%;
+  color: #333;
+}
+
+li {
+  text-align: left;
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+li:before {
+    content: "\2022 ";
+    color: red;
 }
 
 section.reason p.reason {
+  margin-top: 50px;
+  margin-bottom: 0px;
   color: #ff5050;
   font-size: 24pt;
 }
 
 section.reason h3 {
+  margin-top: 20px;
   text-transform: uppercase;
   font-size: 30pt;
 }
@@ -98,6 +134,15 @@ section.reason a:hover {
 p.description {
   font-size: 18pt;
   width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+p.sub {
+  width: 700px;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
@@ -120,4 +165,9 @@ section.quotes h3 {
 section.govt-advice {
   background-color: #666;
   color: #fff;
+}
+
+.bold-18 {
+  font-weight: 600;
+  font-size: 18pt;
 }
