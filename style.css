@@ -156,10 +156,16 @@ section.interstitial {
   font-weight: 400;
 }
 
+section.quotes {
+  padding-bottom: 40px;
+}
+
 section.quotes h3 {
   color: #ff5050;
   font-size: 24pt;
   font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 section.govt-advice {
@@ -167,7 +173,19 @@ section.govt-advice {
   color: #fff;
 }
 
-.bold-18 {
+.bold-18, q {
   font-weight: 600;
   font-size: 18pt;
+}
+
+q {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.quote-author {
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
