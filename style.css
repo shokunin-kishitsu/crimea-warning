@@ -99,13 +99,13 @@ hr.short-grey {
   color: #333;
 }
 
-li {
+ul.you-will li {
   text-align: left;
   padding-left: 1em;
   text-indent: -.7em;
 }
 
-li:before {
+ul.you-will li:before {
     content: "\2022 ";
     color: red;
 }
@@ -171,6 +171,34 @@ section.quotes h3 {
 section.govt-advice {
   background-color: #666;
   color: #fff;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+section.govt-advice h3 {
+  font-weight: 700;
+  font-size: 24pt;
+}
+
+section.govt-advice ul {
+  list-style-type: none;
+}
+
+section.govt-advice ul li {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14pt;
+  margin-bottom: 25px;
+}
+
+section.govt-advice ul li a {
+  font-weight: 400;
+  color: #ccc;
+  text-decoration: none;
+}
+
+section.govt-advice ul li a:hover {
+  text-decoration: underline;
 }
 
 .bold-18, q {
