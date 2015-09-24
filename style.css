@@ -103,6 +103,7 @@ ul.you-will li {
   text-align: left;
   padding-left: 1em;
   text-indent: -.7em;
+  margin: 0.7em;
 }
 
 ul.you-will li:before {
